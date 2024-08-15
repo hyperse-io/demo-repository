@@ -11,6 +11,10 @@
     "CHANGELOG.md",
     "package.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperse-io/demo-repository.git"
+  },
   "scripts": {
     "build": "rimraf dist && tsc -p ./tsconfig.build.json",
     "build-release": "yarn build && rimraf ./_release && yarn pack && mkdir ./_release && tar zxvf ./package.tgz --directory ./_release && rm ./package.tgz",

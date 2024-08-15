@@ -128,3 +128,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .netrc
+
+# build
+/dist
+/build
+/_release
