@@ -6,7 +6,9 @@
     "noImplicitAny": true,
     "noEmit": false,
     "incremental": true,
-    "paths": {}
+    "paths": {},
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["**/node_modules", "**/.*/", "dist", "build"]

@@ -4,7 +4,6 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "incremental": false,
-    "moduleResolution": "nodenext",
     "paths": {}
   },
   "include": ["./src/index.ts"],
