@@ -1,0 +1,26 @@
+{
+  "name": "@hyperse/demo-repo",
+  "version": "0.2.0",
+  "description": "A sample package.json",
+  "scripts": {
+    "build": "rimraf dist && tsc -p ./tsconfig.build.json",
+    "build-release": "yarn build && rimraf ./_release && yarn pack && mkdir ./_release && tar zxvf ./package.tgz --directory ./_release && rm ./package.tgz",
+    "release": "yarn build-release && changeset publish"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@primer/css": "17.0.1"
+  },
+  "devDependencies": {
+    "rimraf": "6.0.1"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.4.0"
+}

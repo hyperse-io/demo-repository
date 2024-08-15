@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "preserve",
+    "allowJs": false,
+    "noImplicitAny": true,
+    "noEmit": false,
+    "incremental": true,
+    "paths": {}
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
+}
