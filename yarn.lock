@@ -283,9 +283,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperse/demo-repo@workspace:.":
+"@hyperse-io/demo-repository@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@hyperse/demo-repo@workspace:."
+  resolution: "@hyperse-io/demo-repository@workspace:."
   dependencies:
     "@changesets/changelog-github": "npm:0.5.0"
     "@changesets/cli": "npm:2.27.7"
