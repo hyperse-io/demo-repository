@@ -28,5 +28,10 @@
     "@changesets/cli": "2.27.7",
     "rimraf": "6.0.1"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com",
+    "directory": "_release/package"
+  },
   "packageManager": "yarn@4.4.0"
 }
