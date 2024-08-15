@@ -11,9 +11,6 @@ jobs:
     if: ${{ github.repository == 'hyperse-io/demo-repository' && contains('refs/heads/main',github.ref)}}
     name: Release and changelog
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
